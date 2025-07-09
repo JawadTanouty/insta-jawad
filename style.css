@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f7f7f7;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="file"],
+button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.mur {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.carte {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 250px;
+    width: 100%;
+    padding: 10px;
+}
+
+.carte img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.carte p {
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    input[type="text"],
+    input[type="file"],
+    button {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .carte {
+        max-width: 90%;
+    }
+}
+
+body {
+    background: #e6f0ff; /* bleu très clair */
+    color: #003366; /* bleu marine foncé */
+}
+
+h2 {
+    color: #004aad; /* bleu vif */
+}
+
+button {
+    background-color: #2ea44f; /* vert */
+    color: white;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #22863a; /* vert plus foncé */
+}
+
+.carte {
+    background: #d0e1ff; /* bleu très clair */
+    box-shadow: 0 4px 8px rgba(0, 74, 173, 0.3); /* ombre bleutée */
+    border-radius: 12px;
+}
