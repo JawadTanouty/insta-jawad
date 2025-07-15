@@ -8,6 +8,8 @@
 </head>
 <body>
 
+<h1> MINI-INSTA <h1>
+
 <h2>Uploader une image</h2>
 
 <form action="upload.php" method="POST" enctype="multipart/form-data">
