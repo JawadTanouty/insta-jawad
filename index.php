@@ -2,13 +2,14 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Instagram - Upload</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
 
-<h1> MINI-INSTA <h1>
+<img class= logo src= "mininiinsta.jpg">
 
 <h2>Uploader une image</h2>
 
