@@ -68,7 +68,7 @@ if (file_exists($dataFile)) {
 if (isset($authors[$file])) {
     echo "<p style='margin:5px 0; font-weight:bold;'>Auteur : " . htmlspecialchars($authors[$file]) . "</p>";
 }
-            //  ÉTAPE 1 : AJOUT DU BOUTON SUPPRIMER 
+            // AJOUT DU BOUTON SUPPRIMER 
             echo "<form action='delete.php' method='POST' onsubmit='return confirm(\"Supprimer cette image ?\");'>";
             echo "<input type='hidden' name='file' value='$file'>";
             echo "<button type='submit' style='margin-top:5px;'>Supprimer</button>";

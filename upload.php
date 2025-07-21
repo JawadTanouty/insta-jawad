@@ -1,4 +1,7 @@
 <?php
+
+            date_default_timezone_set('Europe/Paris');
+
 // Vérifie si le formulaire a été soumis
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
@@ -20,8 +23,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $tmpName = $_FILES['image']['tmp_name'];
         $fileName = basename($_FILES['image']['name']);
 
-        // Sécuriser le nom du fichier pour éviter les conflits
-        $uniqueName = uniqid() . '-' . $fileName;
+        // Nom du fichier daté et titré
+        $timestamp = date('Y-m-d_H-i-s');
+        $uniqueName = $timestamp . '-' . basename($_FILES['image']['name']);
+
 
         // Chemin de destination
         $destination = $uploadDir . $uniqueName;

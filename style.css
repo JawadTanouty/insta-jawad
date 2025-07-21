@@ -36,6 +36,8 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
 }
 
 button:hover {
@@ -89,7 +91,7 @@ button:hover {
 
 body {
     background: #a8bdf7; 
-    color: #f5f5f5;
+    color: #07fff3;
 }
 
 h2 {
@@ -101,6 +103,9 @@ button {
     color: white;
     border-radius: 6px;
     transition: background-color 0.3s ease;
+    display:block;
+    margin: auto;
+    height: auto;
 }
 
 button:hover {
@@ -118,6 +123,6 @@ button:hover {
   height: auto;
   display: block;
   margin: 0 auto;
-  width: 100px;
+  width: 100pxc;
   height: auto;
 }
